@@ -1,0 +1,24 @@
+{
+  "name": "blackwatch",
+  "version": "1.0.0",
+  "description": "A self-hosted personal bot for discordapp.com, friendly design and very simple lightweight bot.",
+  "author": "Nicolás Miranda <hello@nicxes.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicxes/blackwatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nicxes/blackwatch/issues"
+  },
+  "homepage": "https://github.com/nicxes/blackwatch#readme",
+  "dependencies": {
+    "discord.js": "^11.5.0",
+    "enmap": "^4.8.7",
+    "moment": "^2.24.0",
+    "weather-js": "^2.0.0"
+  }
+}
