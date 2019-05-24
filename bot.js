@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
 const moment = require('moment')
-const fs = require("fs")
+const fs = require('fs')
+const Enmap = require('enmap')
 
 // Authentication setup
 const client = new Discord.Client()
