@@ -13,7 +13,6 @@ client.config = Config
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}]`)
 })
 
 // This loop reads the /events/ folder and attaches each event
