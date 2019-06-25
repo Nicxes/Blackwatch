@@ -16,9 +16,9 @@
     "start": "node bot.js"
   },
   "dependencies": {
-    "discord.js": "^11.5.0",
-    "enmap": "^4.8.7",
-    "moment": "^2.24.0",
-    "weather-js": "^2.0.0"
+    "chalk": "^2.4.2",
+    "dotenv": "^8.0.0",
+    "sylphy": "^0.4.5",
+    "winston": "^3.2.1"
   }
 }
