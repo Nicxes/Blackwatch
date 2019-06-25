@@ -54,4 +54,6 @@ bot.on('ready', () => {
   setInterval(() => bot.changeStatus(), 120000)
 })
 
+bot.on('error', bot.logger.error)
+
 bot.run()
