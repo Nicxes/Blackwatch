@@ -4,6 +4,7 @@ const winston = require('winston')
 
 require('dotenv').config()
 
+// New instance client
 const bot = new Client({
   token: process.env.DISCORD_TOKEN,
   prefix: process.env.DISCORD_PREFIX,
@@ -17,6 +18,7 @@ const bot = new Client({
   suppressWarnings: false
 })
 
+// Logger
 const logger = winston.createLogger({
   format: winston.format.combine(
     winston.format.timestamp({
@@ -26,8 +28,6 @@ const logger = winston.createLogger({
   ),
   transports: [new winston.transports.Console()]
 })
-
-
 
 // When the bot is ready to use
 bot.on('ready', () => {
